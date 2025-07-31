@@ -1,0 +1,75 @@
+.cart-button{
+  position: fixed;
+  bottom: 20px;
+  left: 650px;
+  padding: 17px 33px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 999;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.black-btn {
+  width: 90%;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  border: 1px solid black; 
+  font-weight: bold;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.black-btn:hover {
+  background-color: rgb(68, 68, 68);
+}
+  .link-no-style {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.link-no-style:hover {
+  color: rgb(83, 83, 83); /* thoda light black */
+}
+
+
+
+.black-btn-2 {
+  width: 70%;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  border: 1px solid black; 
+  font-weight: bold;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.black-btn-2:hover {
+  background-color: rgb(68, 68, 68);
+}
+
+.total{
+   position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 17px 33px;
+  background-color: #303030b0;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
